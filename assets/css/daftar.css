@@ -1,0 +1,93 @@
+* {
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+body{
+	background-color: #e0d9d9;
+}
+.box-formulir {
+	width:50%;
+	margin : 100px auto;
+	padding:2%;
+	border:1px solid #999;
+	background-color:#f9f9f9;
+}
+.box{
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.box-formulir tr td:nth-child(1){
+	width: 50%;
+}
+.tombol{
+  position:relative;
+  display:inline-block;
+  margin:5px;
+}
+
+.tombol button{
+  color:rgb(255, 255, 255);
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:20px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#FFA12B;
+  display:block;
+  position:relative;
+  padding:5px 10px;
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.tombol button:active{
+  top:5px;
+  background-color:#9189ef;
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.tombol:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+input{
+    width: 100%;
+    font-size: 17px;
+}
+select{
+    width: 80%;
+    font-size: 15px;
+}
+.item{
+    padding-top: 12px;
+}
+.alamat{
+    width: 100%;
+
+}
